@@ -15,7 +15,7 @@ import Nameslist from "./components/Nameslist";
 function App() {
   return (
     <div className="App">
-      {/* <Nameslist /> */}
+      <Nameslist />
       {/* <UserGreeting /> */}
       {/* <ParentComponent /> */}
       {/* <EventBind /> */}
