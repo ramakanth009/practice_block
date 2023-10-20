@@ -16,7 +16,7 @@ import Stylesheet from "./components/Stylesheet";
 function App() {
   return (
     <div className="App">
-      <Stylesheet primary="true" />
+      <Stylesheet primary={false} />
       {/* <Nameslist /> */}
       {/* <UserGreeting /> */}
       {/* <ParentComponent /> */}
