@@ -12,11 +12,13 @@ import ParentComponent from "./components/ParentComponent";
 import UserGreeting from "./components/UserGreeting";
 import Nameslist from "./components/Nameslist";
 import Stylesheet from "./components/Stylesheet";
+import Inline from "./components/inline";
 
 function App() {
   return (
     <div className="App">
-      <Stylesheet primary={false} />
+      <Inline />
+      {/* <Stylesheet primary={false} /> */}
       {/* <Nameslist /> */}
       {/* <UserGreeting /> */}
       {/* <ParentComponent /> */}
