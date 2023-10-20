@@ -23,7 +23,7 @@ function Nameslist() {
     //       skill: 'Vue'
     //     }
     // ]
-    const Namelist = names.map((name ,index)=><h2 key = {index}>{index}{name}</h2>)
+    const Namelist = names.map((name ,index)=><h2 key = {index}>{index} {name}</h2>)
     // const personlist = persons.map(person =><Person key = {person.id} person = {person}/>)
     // return (<div>{personlist}
     // </div>)

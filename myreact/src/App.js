@@ -1,4 +1,4 @@
-// import logo from "./logo.svg";
+import logo from "./logo.svg";
 import "./App.css";
 import Greet from "./components/Greet";
 import Welcome from "./components/Welcome";
@@ -11,11 +11,13 @@ import EventBind from "./components/EventBind";
 import ParentComponent from "./components/ParentComponent";
 import UserGreeting from "./components/UserGreeting";
 import Nameslist from "./components/Nameslist";
+import Stylesheet from "./components/Stylesheet";
 
 function App() {
   return (
     <div className="App">
-      <Nameslist />
+      <Stylesheet primary="true" />
+      {/* <Nameslist /> */}
       {/* <UserGreeting /> */}
       {/* <ParentComponent /> */}
       {/* <EventBind /> */}
