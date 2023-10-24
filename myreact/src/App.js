@@ -13,11 +13,13 @@ import UserGreeting from "./components/UserGreeting";
 import Nameslist from "./components/Nameslist";
 import Stylesheet from "./components/Stylesheet";
 import Inline from "./components/inline";
+import "./appStyles.css";
+import styles from "./appStyles.moudles.css"
 
 function App() {
   return (
     <div className="App">
-      <Inline />
+      {/* <Inline /> */}
       {/* <Stylesheet primary={false} /> */}
       {/* <Nameslist /> */}
       {/* <UserGreeting /> */}
