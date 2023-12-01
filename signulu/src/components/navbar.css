@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #eff4ff;
+  --black-color: #121212;
+  --white-color: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+.bell1{
+  position: absolute;
+  right: 40px;
+}
+.flagmenu{
+  width: 19px;
+  border-radius: 0px 41px 49px 0px;
+  border-color: #E1E2E6;
+}
+.flagside{
+  display: flex;
+  position: absolute;
+  /* left: auto; */
+  right: 82px;
+}
+.theflag{
+  border: 10px;
+  border-color:#E1E2E6 ;
+}
+.profile {
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+  background: url("./logo/profile.png"), lightgray 50% / cover no-repeat;
+}
+.signulu {
+  position: absolute;
+  left: 60px;
+}

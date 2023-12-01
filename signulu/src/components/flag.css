@@ -1,0 +1,8 @@
+.flag {
+display: flex;
+height: 32px;
+padding-left: 0px;
+justify-content: flex-end;
+align-items: center;
+gap: 4px;
+}
